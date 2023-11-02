@@ -4,10 +4,10 @@ files:
   - source: /
     destination: /home/ubuntu/aws-devops-pgp
 hooks:
-  BeforeInstall:
-    - location: scripts/boot.sh
-      timeout: 200
-      runas: root
+#  BeforeInstall:
+ #   - location: scripts/boot.sh
+  #    timeout: 200
+   #   runas: root
 
   BeforeAllowTraffic:
     - location: scripts/start.sh
